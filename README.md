@@ -15,11 +15,13 @@ down). And it turns out though there's an extensive color theme called Dracula
 its not the same as Darcula, in contrast.
 
 Normally one would just manually copy the 16 to 24 colors needed to setup
-another theme, but oddly the iTerm2 format doesn't use RGB values in 0-255 nor
-HEX format. So a conversion was in order. Searching for other attempts did
-find several that used Powershell to half-prepare it, but oddly my version of
-Windows 10 didn't want to run Powershell scripts and I didn't feel it
-necessary to dig into why when I already had Python installed.
+another theme, but oddly [the iTerm2 format](https://iterm2colorschemes.com/)
+doesn't use RGB values in 0-255 nor HEX format,
+[see](JetBrains Darcula.itermcolors).
+So a conversion was in order.  Searching for other attempts did find several
+that used Powershell to half-prepare it, but oddly my version of Windows 10
+didn't want to run Powershell scripts and I didn't feel it necessary to dig
+into why when I already had Python installed.
 
 I hope you also find this script useful.
 
